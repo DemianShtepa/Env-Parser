@@ -1,0 +1,24 @@
+{
+    "name": "demianshtepa/env-parser",
+    "description": "Parse the .env file to add new variables to the global environment.",
+    "keywords": ["parsing", ".env", "environment"],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DemianShtepa\\EnvParser\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Demian",
+            "email": "demyan.shtepa@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0 || >=8.0"
+    },
+    "require-dev": {},
+    "version": "1.0.0"
+}
